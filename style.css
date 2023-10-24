@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'martian';
+    src: url(MartianMono-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    background-color: #FAC898;
+    font-family: martian;
+}
+
+div p{
+    font-size: 17px;
+}
+
+div form label{
+    color:rgb(149, 144, 199);
+}
+
+div form input{
+    font-family: martian;
+}
+
+div input[type="submit"] {   
+    background-color: rgb(149, 144, 199);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    padding: 15px;
+}
+
+nav{
+    border: 1px solid #FF6701;
+    background-color: #FF6701;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+
+li{
+    padding: 25px;
+    position: relative;
+}
+
+a{
+    color: rgb(231, 220, 220);
+    text-decoration: none;
+}
+
+.git{
+    color: blue;
+    text-decoration: underline;
+}
+
+.lis a:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: grey;
+}
+
+.formu{
+   margin-bottom: 40px;
+}
+
+.botao{
+    margin-top: 10px;
+}
